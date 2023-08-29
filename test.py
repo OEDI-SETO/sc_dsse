@@ -303,9 +303,9 @@ class StateEstimatorFederate:
             power_Q = PowersImaginary.parse_obj(self.sub_power_Q.json)
             
             
-            print("voltages:", voltages)
-            print("Power P:", power_P)
-            print("Power Q:", power_Q)
+            # print("voltages:", voltages)
+            # print("Power P:", power_P)
+            # print("Power Q:", power_Q)
             
             
             # ajay  
@@ -402,7 +402,7 @@ class StateEstimatorFederate:
             
             if parameters.base_power != None:
                 base_power = parameters.base_power
-# ajay
+# ajay : python based DSSE
 
 
             
